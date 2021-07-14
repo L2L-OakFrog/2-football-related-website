@@ -139,6 +139,11 @@ nav a
 }
 
 /* Footer Styles */
+.footer:hover
+{
+    zoom: 50%;
+    transition-delay: 5s;
+}
 .footer
 {
     display: flex;
@@ -176,32 +181,22 @@ nav a
 /* 1 column */
 @media only screen and (max-width:688px) 
 {
-    .menu
-    {
-        padding: 0;
-    }
-    .top, .container
+    .top, .container, body
     {
         align-items: flex-start;
         width: 100%;
         margin: 0;
     }
-    .top-article
+    .top-article img
     {
-        width: 100%;
+        max-width: 688px;
     }
-    .container
-    {
-        width: 100%;
-    }
-    .players-list, .menu
+    .players-list, .menu, .top-article, 
     {
         grid-template-columns: repeat(1,1fr);
-        column-gap: 5px;
     }
     .players, .top, .menu
     {
         flex-direction: column;
-        column-gap: 10px;
     }
 }
