@@ -76,6 +76,10 @@ nav a
     width: 556.01px;
     height: 438px;
 }
+.top-article img:hover
+{
+    transform: rotate(30deg);
+}
 
 /* Player Lists */
 .players-list
