@@ -172,3 +172,36 @@ nav a
     font-size: 18px;
     font-weight: 400;
 }
+
+/* 1 column */
+@media only screen and (max-width:688px) 
+{
+    .menu
+    {
+        padding: 0;
+    }
+    .top, .container
+    {
+        align-items: flex-start;
+        width: 100%;
+        margin: 0;
+    }
+    .top-article
+    {
+        width: 100%;
+    }
+    .container
+    {
+        width: 100%;
+    }
+    .players-list, .menu
+    {
+        grid-template-columns: repeat(1,1fr);
+        column-gap: 5px;
+    }
+    .players, .top, .menu
+    {
+        flex-direction: column;
+        column-gap: 10px;
+    }
+}
