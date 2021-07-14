@@ -1,0 +1,72 @@
+/* Fonts Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Common Styles */
+:root
+{
+    --font-color: #FFFFFF;
+    --button-color: #E02C6D;
+    --header-clr: #2e249f
+}
+body
+{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container
+{
+    background-color: #bfbfbf;
+}
+
+/* Header Styles */
+header
+{
+    background-color: var(--header-clr);
+}
+.menu
+{
+    padding: 42px 121px 49px 156px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a
+{
+    text-decoration: none;
+    color:  var(--font-color);
+    padding: 10px 0;
+    margin-right: 36px;
+}
+.login
+{
+    margin: 0px 8px;
+    display: flex;
+    align-items: center;
+    background-color: var(--button-color);
+}
+.login img
+{
+    width: 24px;
+    height: 24px;
+}
+.top
+{
+    display: flex;
+    width: 50%;
+    align-items: center;
+}
+.top-heading
+{
+    color:  var(--font-color);
+.
+{
+    color:  var(--font-color);
+    text-decoration: none;
+}
+.top-animation img
+{
+    width: 50%;
+}
+
+/* Player Lists */
