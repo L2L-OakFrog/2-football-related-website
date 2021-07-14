@@ -19,8 +19,15 @@ body
 }
 .button
 {
+    color: var(--font-color);
     text-decoration: none;
     background-color: #E02C6D;
+    padding: 10px 24px;
+    height: 24px;
+}
+.fas
+{
+    padding: 0 10px;
 }
 
 /* Header Styles */
@@ -43,33 +50,31 @@ nav a
     padding: 10px 0;
     margin-right: 36px;
 }
-.login
-{
-    margin: 0px 8px;
-    display: flex;
-    align-items: center;
-    background-color: var(--button-color);
-}
-.login img
-{
-    width: 24px;
-    height: 24px;
-}
 .top
 {
-    margin-right: 141px;
-    margin-left: 165px;
     display: flex;
-    width: 50%;
     align-items: center;
+    margin-left: 156px;
+    margin-right: 141px;
 }
-.top-heading
+.top-article
 {
-    color:  var(--font-color);
+    width: 50%;
+    margin-bottom: 86px;
 }
-.top-img
+.ta-div
 {
-    width: 1%;
+    color: var(--font-color);
+}
+.ta-div h1
+{
+    font-size: 64px;
+}
+.top-article img
+{
+    padding-left: 40px;
+    width: 556.01px;
+    height: 438px;
 }
 
 /* Player Lists */
@@ -99,6 +104,30 @@ nav a
 .about
 {
     color: #6C6C6C;
+}
+
+/* Highlights & Extra Styles */
+.highlights
+{
+    display: flex;
+}
+.highlight
+{
+    width: 50%;
+    align-items: center;
+}
+.highlight h1
+{
+    font-size: 48px;
+    margin-bottom: 0;
+}
+.highlight a
+{
+    margin-top: 10px;
+}
+.highlight img
+{
+    width: 100%;
 }
 
 /* Footer Styles */
