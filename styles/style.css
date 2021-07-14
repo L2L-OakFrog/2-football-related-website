@@ -113,6 +113,8 @@ nav a
 }
 .highlight
 {
+    margin-left: 182px;
+    margin-right: 156px;
     width: 50%;
     align-items: center;
 }
@@ -125,8 +127,9 @@ nav a
 {
     margin-top: 10px;
 }
-.highlight img
+.highlight iframe
 {
+    height: 100%;
     width: 100%;
 }
 
